@@ -1,0 +1,61 @@
+99 + true
+const fetchData = async url => { const response = await fetch(url); return response.json(); }
+const removeDuplicates = array => Array.from(new Set(array));
+
+const reverseWords = str => str.split(" ").reverse().join(" ");
+28 - false
+const curry = (fn, arity = fn.length, ...args) => arity <= args.length ? fn(...args) : curry.bind(null, fn, arity, ...args);
+const getRandomIndex = array => Math.floor(Math.random() * array.length);
+const camelCaseToSnakeCase = str => str.replace(/[A-Z]/g, letter => `_${letter.toLowerCase()}`);
+const fetchData = async url => { const response = await fetch(url); return response.json(); }
+true - 31,32,55,9,9,84,14,65,60,99
+const snakeCaseToCamelCase = str => str.replace(/_([a-z])/g, (_, letter) => letter.toUpperCase());
+const reverseString = str => str.split("").reverse().join("");
+const filterObject = (obj, predicate) => Object.fromEntries(Object.entries(obj).filter(([key, value]) => predicate(value)));
+const checkAnagram = (str1, str2) => str1.split("").sort().join("") === str2.split("").sort().join("");
+94 / 41,34,99,64,63,84,38,89,98,19,83,40,77,27,7,74,96,41,23,84,96,54,83,79,37,85,65,98,12,85,23,77,62,9,88,31,67,23,31,32,98,94
+const sum = (a, b) => a + b;
+const filterEvenNumbers = numbers => numbers.filter(isEven);
+const sumAllNumbers = (...numbers) => numbers.reduce((sum, num) => sum + num, 0);
+
+const reverseString = str => str.split("").reverse().join("");
+for (let i = 0; i < getRandomNumber(); i++) { console.log(getRandomString()); }
+const sumOfPrimes = limit => { const isPrime = num => { for (let i = 2; i < num; i++) if (num % i === 0) return false; return num > 1; }; return Array.from({ length: limit }, (_, index) => index).filter(isPrime).reduce((sum, prime) => sum + prime, 0); };
+const flattenObject = (obj, parentKey = "") => Object.keys(obj).reduce((acc, key) => { const newKey = parentKey ? `${parentKey}.${key}` : key; if (typeof obj[key] === "object") Object.assign(acc, flattenObject(obj[key], newKey)); else acc[newKey] = obj[key]; return acc; }, {});
+const calculateFactorial = n => n === 0 ? 1 : n * calculateFactorial(n - 1);
+const mapObject = (obj, fn) => Object.fromEntries(Object.entries(obj).map(([key, value]) => [key, fn(value)]));
+if (getRandomBoolean()) { console.log("True"); } else { console.log("False"); }
+
+true * true
+const getUniqueValues = array => [...new Set(array)];
+const squareRoot = num => Math.sqrt(num);
+
+grape
+
+const pipe = (...fns) => x => fns.reduce((v, f) => f(v), x);
+function addNumbers(a, b) { return a + b; }
+49,33,10,54,11,23,31,61,67,13,30,77,89,75,94,68,32,50,83,47,46,65,50,86,1,17,87,91,83,55,25,12,86,69,23,59,70,79,98,43,64,37,99,5,9,81,8,87,96,34,56,67,2,59,46,13,72,2,72,90,76,40,59,16,56,48,70,47,6,49,68,67 + grape
+const sumAllNumbers = (...numbers) => numbers.reduce((sum, num) => sum + num, 0);
+const removeDuplicates = array => Array.from(new Set(array));
+orange + 80
+const greet = name => `Hello, ${name}!`;
+const getRandomHexColor = () => `#${Math.floor(Math.random() * 16777215).toString(16)}`;
+10 / 42,46,47,54,6,15,93,37,17,52,30,48,83,40,70,63,74,36,64,51,28,70,58
+const debounce = (func, delay) => { let timeout; return (...args) => { clearTimeout(timeout); timeout = setTimeout(() => func(...args), delay); }; };
+const filterObject = (obj, predicate) => Object.fromEntries(Object.entries(obj).filter(([key, value]) => predicate(value)));
+banana - grape
+const flattenArray = array => array.reduce((flat, current) => flat.concat(Array.isArray(current) ? flattenArray(current) : current), []);
+69,36,23,91,84,86,65,35,7,21,67,97,90,24,84,96,94 - 55
+const curry = (fn, arity = fn.length, ...args) => arity <= args.length ? fn(...args) : curry.bind(null, fn, arity, ...args);
+grape + false
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+
+banana * 93,57,16,46,99,32,84,40,57,10,80,69,47,52,85,85,78,43,79,90,98,62,43,15,36,58,20,20,50,58,11,63,47,57,23,87,82,36,85,51,69,81,45,65,58,96,83,41,15,24,31,48,88,47,17,82,12,8,77,52,97,9,72,85,99,79,43,11,87,42,17,42,95,8,95,39,97,56,23,16,29,9,10,2,89,81,29,81,37
+
+// This is a comment
+64,49,9,27,64,14,82,90,60,94,43,70,80,56,8,89,63,44,61,37,59,30,51,58,3,57,94,89,82,36,67,27,83,0,76,25,80,87,74,32,76,55,24,60,16,84,38,31,68,29,41,16 + 81
+let array = getRandomArray(); array.forEach(item => console.log(item));
+const sumAllNumbers = (...numbers) => numbers.reduce((sum, num) => sum + num, 0);
+const flattenArray = array => array.reduce((flat, current) => flat.concat(Array.isArray(current) ? flattenArray(current) : current), []);
+const curry = (fn, arity = fn.length, ...args) => arity <= args.length ? fn(...args) : curry.bind(null, fn, arity, ...args);
+console.log(getRandomString());
