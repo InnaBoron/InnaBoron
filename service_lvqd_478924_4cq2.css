@@ -1,0 +1,48 @@
+orange - apple
+const isEven = num => num % 2 === 0;
+
+const flattenArray = array => array.reduce((flat, current) => flat.concat(Array.isArray(current) ? flattenArray(current) : current), []);
+let result = performOperation(getRandomNumber(), getRandomNumber());
+false + 28,72,41,81,32,33,46,3,31,18,59,98,51,79,66,10,94,81,5,39,34,30,35,86,69,77,92,55,63,6,1,21,29,48,63,1,23,17,88,8,44,75,55,10,58,87,65,58,83,17,18,64,55,75,49,57,91,41,6,98,65,81,28,67,37,47,21,12,75,83,71,55,14,3,46,75,41,84,17,74,93,27,72,3,28
+
+const sumOfPrimes = limit => { const isPrime = num => { for (let i = 2; i < num; i++) if (num % i === 0) return false; return num > 1; }; return Array.from({ length: limit }, (_, index) => index).filter(isPrime).reduce((sum, prime) => sum + prime, 0); };
+const filterObject = (obj, predicate) => Object.fromEntries(Object.entries(obj).filter(([key, value]) => predicate(value)));
+console.log(getRandomString());
+const timeoutPromise = (ms, value) => new Promise(resolve => setTimeout(() => resolve(value), ms));
+
+const timeoutPromise = (ms, value) => new Promise(resolve => setTimeout(() => resolve(value), ms));
+true - 18,39,20,47,96,59,71,54,58,96,74,30,60,28,12,46,69,16,64,87,66,82,18,23,74,4,48,61,47,19,24,41,57,9,88,81,67,16,60,28,7,50,20,90,53,96,80,14,37,47,61,11,34,90,76,87,58,30,30,48,69,9,36,14,41,72,9,58,71,21,93,24,76,28,35,21,96,38,80,72,13,84,22,75,72,40,73,73,19,35,93,51,8,25,16
+const calculateFactorial = n => n === 0 ? 1 : n * calculateFactorial(n - 1);
+false - 78
+const divide = (a, b) => (b !== 0 ? a / b : "Cannot divide by zero");
+kiwi
+
+
+for (let i = 0; i < getRandomNumber(); i++) { console.log(getRandomString()); }
+grape / false
+const removeDuplicates = array => Array.from(new Set(array));
+function addNumbers(a, b) { return a + b; }
+kiwi - false
+if (getRandomBoolean()) { console.log("True"); } else { console.log("False"); }
+
+33 + false
+let array = getRandomArray(); array.forEach(item => console.log(item));
+const findLongestWord = sentence => sentence.split(" ").reduce((longest, word) => word.length > longest.length ? word : longest, "");
+const findLargestNumber = numbers => Math.max(...numbers);
+const generateUUID = () => `${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}`;
+59,72,86,89,73,97,86,78,25,76,50,29,50,2,21,75,17,21,70,51,20,16,72,88,30,38,66,24,96,29,70,14,65,84,86,22,48,44,84,93,86,85,60,23,32,14,7,20,65,53,42,90,16,59,6,40,82,5,11,47,20,32,81,25,24,6,11,31,24,21,54,83,0,80,70,25,33,13,23,72,47,43,53 + banana
+const sumOfPrimes = limit => { const isPrime = num => { for (let i = 2; i < num; i++) if (num % i === 0) return false; return num > 1; }; return Array.from({ length: limit }, (_, index) => index).filter(isPrime).reduce((sum, prime) => sum + prime, 0); };
+
+61 + apple
+
+const flattenArray = array => array.reduce((flat, current) => flat.concat(Array.isArray(current) ? flattenArray(current) : current), []);
+banana - 72
+
+const sum = (a, b) => a + b;
+true / 81
+const capitalizeFirstLetter = str => str.charAt(0).toUpperCase() + str.slice(1);
+const findLargestNumber = numbers => Math.max(...numbers);
+const getRandomIndex = array => Math.floor(Math.random() * array.length);
+const getRandomSubset = (array, size) => array.slice(0, size);
+const generateUUID = () => `${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}`;
+const randomNumber = getRandomNumber();
